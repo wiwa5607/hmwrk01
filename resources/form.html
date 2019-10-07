@@ -1,0 +1,89 @@
+<!--
+Will Walker
+University of Colorado Boulder
+Creation Date:  Monday, October 7th 2019, 1:37:56 pm
+File: form.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+			crossorigin="anonymous"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<form>
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<div class="form-group">
+						<label for="Title">Title</label>
+						<input type="text" class="form-control" id="Title" placeholder="Title of article" />
+					</div>
+					<div class="form-group">
+						<label for="Author">Author</label>
+						<input type="text" class="form-control" id="Author" placeholder="Author's Name" />
+					</div>
+
+					<div class="form-row">
+						<div class="col-md-6">
+							<label for="customFile">Upload File</label>
+							<div class="custom-file">
+								<label class="custom-file-label" for="customFile">Choose file</label>
+								<input type="file" class="custom-file-input" id="customFile" />
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="exampleFormControlSelect1">Page</label>
+								<select class="form-control" id="exampleFormControlSelect1">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="comment">Article Text</label>
+						<textarea class="form-control" rows="10" id="comment"></textarea>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label>Select Tags</label><br>
+							<label class="checkbox-inline"><input type="checkbox" value="" />C++</label>
+							<label class="checkbox-inline"><input type="checkbox" value="" />Java</label>
+							<label class="checkbox-inline"><input type="checkbox" value="" />Perl</label>
+						</div>
+						<div class="col">
+							<label>Visibility</label><br />
+							<label class="radio-inline"><input type="radio" name="optradio" checked />Public</label>
+							<label class="radio-inline"><input type="radio" name="optradio" />Private</label>
+						</div>
+					</div>
+					<div class = "row">
+						<div class="col">
+							<label for="usr">Enter Username</label>
+							<input type = "text" class = "form-control" id = "usr">
+						</div>
+						<div class = "col">
+							<label for="pwd">Password</label>
+							<input type= "password" class = "form-control" id = "pwd">
+						</div>
+					</div>
+					<label class = checkbox-inline"><input type = "checkbox" value=""/>Remember Me</label><br>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,138 @@
+<!--
+Will Walker
+University of Colorado Boulder
+Creation Date:  Monday, October 7th 2019, 11:46:52 am
+File: mypage_bootstrap.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>About Me</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>
+				Walker, Will -
+				<small class="text-muted"> Software Development and Tools</small>
+			</h1>
+			<div class="card">
+				<div class="card-body">
+					I work at the campus bowling alley, I am from Colorado, and I carry a 200 bowling average.<br />
+					I study Computer Science because I love to tinker, and I enjoy working with computers.
+				</div>
+			</div>
+			<h2>My Professional Profile</h2>
+			<a href="https://www.github.com/wiwa5607" class="btn btn-info" role="button">Will's Github</a> <br />
+			<img
+				class="rounded-circle"
+				src="img/Attach203741_20190830_133302~2.jpg"
+				alt="Profile Picture"
+				height="350"
+				width="300"
+			/>
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Name of Project</th>
+						<th scope="col">Technologies Used</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							Inventory System
+						</td>
+						<td>
+							C, C++, Java, Swing UI
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Star Wars Command Line Game
+						</td>
+						<td>
+							C, Bash
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Custom Foul Sensors
+						</td>
+						<td>
+							Protoboarding, Soldering, IC and PCB Design
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" href="#collapse1">Countries Travelled</a>
+								</h4>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse">
+								<ul>
+									<li>Italy</li>
+									<li>Mexico</li>
+									<li>All over the US</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div id="collapse2" class="panel-collapse collapse">
+								<ol>
+									<li>Computers/Technology</li>
+									<li>Cars/Auto Racing</li>
+									<li>Bowling</li>
+								</ol>
+							</div>
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" href="#collapse2">My Personal Interests</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+				Click Me!
+			</button>
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">That's All Folks!!!</h4>
+						</div>
+						<div class="modal-body">
+							<iframe
+								src="https://giphy.com/embed/mR3dXKpI6P8CA"
+								width="480"
+								height="360"
+								frameBorder="0"
+								class="giphy-embed"
+								allowFullScreen
+							></iframe>
+							<p><a href="https://giphy.com/gifs/looney-tunes-mR3dXKpI6P8CA">via GIPHY</a></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
